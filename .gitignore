@@ -1,0 +1,26 @@
+# Data (not distributed)
+*.csv
+*.tsv
+*.xlsx
+*.tdms
+*.egg
+*.parquet
+*.h5
+
+# Model weights / large binaries
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# Notebook / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
