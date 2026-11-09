@@ -1,38 +1,38 @@
-# Data Science Portfolio — Geonsang Lee (이건상)
+# 이건상 포트폴리오
 
-시계열·이상탐지·의료/헬스케어 데이터를 중심으로 한 데이터 사이언스 포트폴리오입니다.
-6개 프로젝트와 제1저자 국제 저널 게재 논문(재현 패키지 포함)으로 구성됩니다.
+홍익대학교 산업데이터공학과 이건상의 연구·프로젝트 코드 모음입니다.
+감염병 신고자료를 다룬 연구 6건과 공모전·교육 프로그램 프로젝트 9건을 정리했습니다.
+원본 데이터, 모델 가중치, 심사 중인 원고 파일은 넣지 않았습니다.
 
-> **Note on data & outputs** — 대회/기관 제공 원본 데이터(대용량 CSV·TDMS 등)와 라이선스 자료는 포함하지 않습니다.
-> 노트북 출력(그래프·로그)은 용량을 위해 제거했으며, 코드는 실행 환경에 맞게 경로를 수정해 재현할 수 있습니다.
+## 연구 (감염병 역학)
 
-## ★ Featured Publication (First Author)
+| 폴더 | 내용 | 상태 |
+|---|---|---|
+| [06_typhoid_epidemiology](./06_typhoid_epidemiology) | 장티푸스 24년 신고자료 분석 | 게재 (Foodborne Pathogens and Disease, 2026) |
+| [07_bacillus_cereus_epidemiology](./07_bacillus_cereus_epidemiology) | 바실러스 세레우스 식중독 도시·농촌 분석 | 게재 (Int J Environ Health Res, 2026) |
+| [08_ehec_surveillance](./08_ehec_surveillance) | 장출혈성대장균 24년 신고 추세 | 리비전 (Foodborne Pathogens and Disease) |
+| [09_vparahaemolyticus_urban_rural](./09_vparahaemolyticus_urban_rural) | 장염비브리오 식중독과 바다 수온 | 심사 중 (Zoonoses and Public Health) |
+| [10_hepatitisA_surveillance](./10_hepatitisA_surveillance) | A형간염 14년 신고자료 분석 | 심사 중 (Pathogens and Global Health) |
 
-**Typhoid Fever in the Republic of Korea, 2001–2024** — *Foodborne Pathogens and Disease* (2026), Published online.
-Geonsang Lee (제1저자), Seongdae Kim · Hongik University.
-- Paper (DOI): https://doi.org/10.1177/15353141261465221
-- Reproducibility package (data + code, CC-BY-4.0): https://doi.org/10.5281/zenodo.19810837
-- KDCA 전수감시 3,535례 재분석 — Mann–Kendall · Negative Binomial GLM · Morlet wavelet · Moran's I/LISA · Empirical Bayes
-- 데이터 수집·전처리부터 통계·공간 분석 설계·구현, 원고 전 섹션 집필, 재현 패키지 공개까지 전 과정 단독 수행.
+모든 연구는 제1저자로 참여했습니다 (지도교수 김성대).
+UROP로 참여 중인 식품매개 감염병 지역 분석은 진행 중인 연구라 코드를 공개하지 않습니다.
 
-## Projects
+## 프로젝트
 
-| # | Project | Domain | Key Methods |
-|---|---------|--------|-------------|
-| 01 | [IVF Pregnancy Prediction](./01_ivf_prediction) — LG Aimers 6th | Healthcare / Tabular ML | ExtraTrees · XGBoost · LightGBM · Optuna · probability calibration |
-| 02 | [Seoul Education Data Analysis](./02_seoul_education) — 7th MOE Competition | Public Data | EDA · PCA · Ridge/Lasso/RF · Folium |
-| 03 | [HIRA Healthcare Big Data](./03_hira_healthcare) | Healthcare / Claims | ICD-10 mapping · large-scale ETL (cp949) · readmission/mortality |
-| 04 | [Behavioral-Finance Clustering](./04_field_finance) — FIELD | Quant Finance / Survey | DBSCAN + PCA · Markowitz / Black-Litterman / Risk Parity |
-| 05 | [Bearing Anomaly Detection + Health Index](./05_bearing_anomaly) — KIMM Challenge | Industrial AI / Signal | **1D CNN AutoEncoder (PyTorch, self-built)** · TDMS · RMS/Kurtosis · HI threshold |
-| 06 | [Typhoid Surveillance Epidemiology](./06_typhoid_epidemiology) — Published | Spatio-temporal Statistics | Mann–Kendall · NB GLM · Morlet wavelet · Moran's I/LISA · Empirical Bayes |
+| 폴더 | 내용 | 결과 |
+|---|---|---|
+| [01_ivf_prediction](./01_ivf_prediction) | LG Aimers 6기, 난임 시술 임신 성공 예측 | 169위 / 794팀 |
+| [02_seoul_education](./02_seoul_education) | 서울교육 데이터 공모전, 자치구 학업성취 분석 | |
+| [03_hira_healthcare](./03_hira_healthcare) | HIRA 빅데이터 경진대회, 호흡기 질환 청구자료 정리 | |
+| [04_field_finance](./04_field_finance) | FIELD, 금융 성향 군집과 자산 배분 비교 | |
+| [05_bearing_anomaly](./05_bearing_anomaly) | 베어링 이상 탐지 (KSPHM·KIMM 챌린지) | 3등 |
+| [11_satellite_esg_detection](./11_satellite_esg_detection) | 위성영상으로 대기오염 배출원 찾기 (데이터 크리에이터 캠프) | 수료 |
+| [12_travel_qa_engine](./12_travel_qa_engine) | 여행 일정 검사 웹 서비스 (2026 관광데이터 공모전) | |
+| [13_kossda_teacher_rights](./13_kossda_teacher_rights) | 교권 침해 설문 분석 (KOSSDA 공모전 2026) | |
+| [14_smart_port_agv_routing](./14_smart_port_agv_routing) | 스마트 항만 무인 운반차 경로 최적화 | 14위 / 229팀 |
 
-## Tech Stack
+## 주로 쓴 도구
 
-**Languages** Python · R · SQL
-**ML / DL** scikit-learn · XGBoost · LightGBM · PyTorch · Optuna
-**Stats / Epi** statsmodels (GLM·NB) · PyWavelets · PyMannKendall · libpysal (Moran's I) · Empirical Bayes
-**Data / Signal** pandas · numpy · scipy · nptdms (TDMS) · large-scale ETL
-**Viz** matplotlib · seaborn · folium · plotly
+Python, R, SQL · pandas, statsmodels, R-INLA · scikit-learn, XGBoost, LightGBM, PyTorch · YOLOv8, U-Net · FastAPI, Docker
 
-## Contact
-Geonsang Lee (이건상) · Hongik University, Dept. of Industrial & Data Engineering
+연락: gunsang0307@naver.com

@@ -1,0 +1,10 @@
+series,h_min,best_model,best_bic,best_n_bp,dBIC_vs_0bp,runner_up,runner_bic,delta_bic_to_runner
+total,2,"2bp@2013,2019",261.53,2,-3.14,1bp@2019,262.97,1.44
+total,3,"2bp@2014,2019",262.32,2,-2.34,1bp@2019,262.97,0.65
+total,4,1bp@2019,262.97,1,-1.69,"2bp@2015,2019",263.11,0.14
+domestic,2,"2bp@2013,2019",261.31,2,-3.21,1bp@2019,262.83,1.52
+domestic,3,"2bp@2014,2019",262.12,2,-2.41,1bp@2019,262.83,0.71
+domestic,4,1bp@2019,262.83,1,-1.7,"2bp@2015,2019",262.93,0.1
+imported,2,no break,inf,0,,no break,inf,
+imported,3,no break,inf,0,,no break,inf,
+imported,4,no break,inf,0,,no break,inf,

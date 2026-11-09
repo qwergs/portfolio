@@ -1,0 +1,4 @@
+series,best_model,best_bic,dBIC_vs_0bp,runner_up,runner_bic
+total,"2bp@2014,2019",262.32,-2.34,1bp@2019,262.97
+domestic,"2bp@2014,2019",262.12,-2.41,1bp@2019,262.83
+imported,no break,inf,,no break,inf

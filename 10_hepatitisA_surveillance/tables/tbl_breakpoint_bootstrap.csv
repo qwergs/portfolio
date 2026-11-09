@@ -1,0 +1,2 @@
+series,point_bp1_year,point_bp2_year,bp1_ci_lo,bp1_ci_hi,bp2_ci_lo,bp2_ci_hi,BIC_0bp,BIC_1bp,BIC_2bp,dBIC_2bp_vs_1bp,dBIC_2bp_vs_0bp,n_boot
+total,2014,2019,2014,2017,2017,2022,263.55593803422465,259.82264135703224,257.6252305909837,-2.197410766048563,-5.930707443240976,200

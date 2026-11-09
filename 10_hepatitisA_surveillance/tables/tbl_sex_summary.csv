@@ -1,0 +1,10 @@
+metric,value
+Pooled M:F IRR (95% CI),1.312 (1.290-1.334)
+MK tau on annual M:F IRR,-0.758
+MK p on annual M:F IRR,0.0002
+MK tau on 70+ share,0.626
+MK p on 70+ share,0.0022
+M cases,"30,958"
+F cases,"23,669"
+M person-years,"360,221,316"
+F person-years,"361,250,382"

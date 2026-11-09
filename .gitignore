@@ -1,26 +1,7 @@
-# Data (not distributed)
-*.csv
-*.tsv
-*.xlsx
-*.tdms
-*.egg
-*.parquet
-*.h5
-
-# Model weights / large binaries
-*.pt
-*.pth
-*.ckpt
-*.pkl
-*.joblib
-
-# Notebook / Python
-.ipynb_checkpoints/
+.DS_Store
 __pycache__/
 *.pyc
+.env
 .venv/
-venv/
-
-# OS
-.DS_Store
-Thumbs.db
+*.pth
+_copy_missing_files.command

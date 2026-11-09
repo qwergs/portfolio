@@ -1,0 +1,17 @@
+province,total,domestic,imported,mean_population
+Gwangju,395,392,3,1436040
+Jeju,90,90,0,607195
+Jeonnam,147,146,1,1914206
+Ulsan,79,78,1,1120787
+Daegu,140,131,9,2473386
+Incheon,141,137,4,2807346
+Daejeon,70,66,4,1475511
+Gyeongbuk,118,116,2,2676582
+Chungnam,83,81,2,1977786
+Gyeonggi,495,475,20,12522082
+Gangwon,60,58,2,1532222
+Seoul,352,328,24,9975073
+Jeonbuk,63,60,3,1858644
+Gyeongnam,100,95,5,3063195
+Chungbuk,42,39,3,1515779
+Busan,73,70,3,3519439
