@@ -15,7 +15,7 @@
 | [10_hepatitisA_surveillance](./10_hepatitisA_surveillance) | A형간염 14년 신고자료 분석 | 심사 중 (Pathogens and Global Health) |
 
 모든 연구는 제1저자로 참여했습니다 (지도교수 김성대).
-UROP로 참여 중인 식품매개 감염병 지역 분석은 진행 중인 연구라 코드를 공개하지 않습니다.
+UROP(2025.9–2026.7)에서 모으고 정리한 자료와 분석 코드는 공개하지 않습니다.
 
 ## 프로젝트
 
@@ -24,7 +24,7 @@ UROP로 참여 중인 식품매개 감염병 지역 분석은 진행 중인 연�
 | [01_ivf_prediction](./01_ivf_prediction) | LG Aimers 6기, 난임 시술 임신 성공 예측 | 169위 / 794팀 |
 | [02_seoul_education](./02_seoul_education) | 서울교육 데이터 공모전, 자치구 학업성취 분석 | |
 | [03_hira_healthcare](./03_hira_healthcare) | HIRA 빅데이터 경진대회, 호흡기 질환 청구자료 정리 | |
-| [04_field_finance](./04_field_finance) | FIELD, 금융 성향 군집과 자산 배분 비교 | |
+| [04_field_finance](./04_field_finance) | FIELD 캠프, 금융 성향 유형 분석 (페르소나 군집 담당) | |
 | [05_bearing_anomaly](./05_bearing_anomaly) | 베어링 이상 탐지 (KSPHM·KIMM 챌린지) | 3등 |
 | [11_satellite_esg_detection](./11_satellite_esg_detection) | 위성영상으로 대기오염 배출원 찾기 (데이터 크리에이터 캠프) | 수료 |
 | [12_travel_qa_engine](./12_travel_qa_engine) | 여행 일정 검사 웹 서비스 (2026 관광데이터 공모전) | |
