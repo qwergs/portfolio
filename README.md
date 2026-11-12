@@ -15,7 +15,7 @@
 | [10_hepatitisA_surveillance](./10_hepatitisA_surveillance) | A형간염 14년 신고자료 분석 | 심사 중 (Pathogens and Global Health) |
 
 모든 연구는 제1저자로 참여했습니다 (지도교수 김성대).
-UROP(2025.9–2026.7)에서 모으고 정리한 자료와 분석 코드는 공개하지 않습니다.
+UROP(2025.9–11)와 이후 지도교수님과 이어 간 연구에서 모으고 정리한 자료와 분석 코드는 공개하지 않습니다.
 
 ## 프로젝트
 
@@ -26,7 +26,7 @@ UROP(2025.9–2026.7)에서 모으고 정리한 자료와 분석 코드는 공�
 | [03_hira_healthcare](./03_hira_healthcare) | HIRA 빅데이터 경진대회, 호흡기 질환 청구자료 정리 | |
 | [04_field_finance](./04_field_finance) | FIELD 캠프, 금융 성향 유형 분석 (페르소나 군집 담당) | |
 | [05_bearing_anomaly](./05_bearing_anomaly) | 베어링 이상 탐지 (KSPHM·KIMM 챌린지) | 3등 |
-| [11_satellite_esg_detection](./11_satellite_esg_detection) | 위성영상으로 대기오염 배출원 찾기 (데이터 크리에이터 캠프, 팀장) | |
+| [11_satellite_esg_detection](./11_satellite_esg_detection) | 위성영상으로 대기오염 배출원 찾기 (데이터 크리에이터 캠프, 팀장) | 수료 |
 | [12_travel_qa_engine](./12_travel_qa_engine) | 여행 일정 검사 웹 서비스 (2026 관광데이터 공모전) | |
 | [13_kossda_teacher_rights](./13_kossda_teacher_rights) | 교권 침해 설문 분석 (KOSSDA 공모전 2026) | |
 | [14_smart_port_agv_routing](./14_smart_port_agv_routing) | 스마트 항만 무인 운반차 경로 최적화 | 14위 / 229팀 |
